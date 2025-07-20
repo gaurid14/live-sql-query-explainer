@@ -1,0 +1,36 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>com.gauri.sqlqueryexplainer</id>
+    <name>Live SQL Query Explainer</name>
+    <vendor email="gauridesai35@gmail.com" url="https://github.com/gaurid14">Gauri Desai</vendor>
+
+    <description>
+        Plugin to explain SQL Queries inline with tips and visual query plans
+    </description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <resource-bundle>messages.MyBundle</resource-bundle>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="SQL Explainer"
+                    factoryClass="com.gauri.sqlqueryexplainer.SQLToolWindowFactory"
+                    anchor="right"
+                    canCloseContents="false"
+                    icon="/icons/sql.png"/>
+    </extensions>
+
+    <change-notes>
+        Initial release. Features include SQL query explanation for SELECT, JOIN, WHERE, GROUP BY, etc., a persistent tool window for output, and sample SQL queries built in.
+    </change-notes>
+
+    <actions>
+        <action id="SQLQueryExplainAction"
+                class="com.gauri.sqlqueryexplainer.SQLExplainAction"
+                text="Explain SQL Query"
+                description="Analyze and explain SQL queries inline using visual and textual breakdowns. Includes support for SELECT, JOIN, GROUP BY, ORDER BY, and more. Great for learning and debugging SQL."
+                icon="/icons/sql.png">
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>
