@@ -51,3 +51,6 @@ JetBrains and IntelliJ are trademarks of JetBrains s.r.o.
 **Gauri Desai**  
 📫 [gauridesai35@gmail.com](mailto:gauridesai35@gmail.com)  
 🌐 [GitHub Profile](https://github.com/gaurid14)
+
+> ⚙️ **Note:** This project was initially created using the [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template) provided by JetBrains. It has since been customized for specific functionality and requirements.
+
