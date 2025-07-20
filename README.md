@@ -36,12 +36,15 @@
 
 ---
 
+
 ## 📜 Disclaimer
 
 This plugin is an independent project and is **not affiliated with JetBrains s.r.o.**  
 JetBrains and IntelliJ are trademarks of JetBrains s.r.o.
 
 ---
+
+👉 This plugin is currently under review for listing on the [JetBrains Marketplace](https://plugins.jetbrains.com/). Once approved, installation will be available directly from the IDE.
 
 ## 🧑‍💻 Author
 
