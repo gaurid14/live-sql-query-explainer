@@ -4,9 +4,23 @@
     <name>Live SQL Query Explainer</name>
     <vendor email="gauridesai35@gmail.com" url="https://github.com/gaurid14">Gauri Desai</vendor>
 
-    <description>
-        Plugin to explain SQL Queries inline with tips and visual query plans
+    <description><![CDATA[
+        Live SQL Query Explainer helps developers understand SQL queries inline, directly within IntelliJ-based IDEs.
+        
+        Key features include:
+        <ul>
+          <li><strong>Inline SQL explanation</strong> in plain English with helpful visual cues</li>
+          <li>Support for common SQL clauses like <code>SELECT</code>, <code>JOIN</code>, <code>WHERE</code>, <code>GROUP BY</code>, and more</li>
+          <li>A <strong>tool window</strong> to view and revisit previous query explanations</li>
+          <li>Built-in <strong>sample queries</strong> to experiment with and learn from</li>
+        </ul>
+        
+        Ideal for beginners learning SQL and professionals debugging complex queries.
+        
+        <a href="https://github.com/gaurid14/live-sql-query-explainer">GitHub Repository</a>
+        ]]>
     </description>
+
 
     <depends>com.intellij.modules.platform</depends>
 
