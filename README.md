@@ -26,8 +26,10 @@ Or install directly from JetBrains IDEs via:
 
 > `Settings` → `Plugins` → `Marketplace` → Search for **SQL Explainer**
 
-✅ Supported IDEs: IntelliJ IDEA (Community & Ultimate), DataGrip, Android Studio, PyCharm, WebStorm, PhpStorm, CLion, Rider, GoLand, RubyMine, and more.
 ---
+
+✅ Supported IDEs: IntelliJ IDEA (Community & Ultimate), DataGrip, Android Studio, PyCharm, WebStorm, PhpStorm, CLion, Rider, GoLand, RubyMine, and more.
+
 
 ## 📦 Tech Stack
 
