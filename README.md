@@ -12,7 +12,7 @@
 ## ✨ Features
 
 - Inline **SQL query explanation** in plain English.
-- Supports keywords like `SELECT`, `JOIN`, `WHERE`, `GROUP BY`, and more.
+- Supports keywords like `SELECT`, `INSERT`, `UPDATE`, `DELETE`, `JOIN`, `WHERE`, `GROUP BY`, and more.
 - Displays **visual query plans** (simplified tree view).
 - Context menu action: _Explain SQL Query_.
 - Persistent **Tool Window** to review past queries and explanations.
@@ -21,7 +21,7 @@
 
 ## 🚀 Installation
 
-📦 Available now on the [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/27994-sql-explainer/versions/stable/802819)  
+📦 Available now on the [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/27994-sql-explainer/)  
 Or install directly from JetBrains IDEs via:
 
 > `Settings` → `Plugins` → `Marketplace` → Search for **SQL Explainer**
