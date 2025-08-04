@@ -7,14 +7,15 @@
     <description>
         <![CDATA[
             <p>
-            Live SQL Query Explainer helps developers understand SQL queries inline, directly within IntelliJ-based IDEs.
+            <strong>Live SQL Query Explainer</strong> helps developers understand SQL queries inline, directly within IntelliJ-based IDEs.
             </p>
             <p><strong>Key features include:</strong></p>
             <ul>
               <li><strong>Inline SQL explanation</strong> in plain English with helpful visual cues</li>
-              <li>Support for common SQL clauses like <code>SELECT</code>, <code>JOIN</code>, <code>WHERE</code>, <code>GROUP BY</code>, and more</li>
-              <li>A <strong>tool window</strong> to view and revisit previous query explanations</li>
-              <li>Built-in <strong>sample queries</strong> to experiment with and learn from</li>
+              <li>Support for common SQL operations: <code>SELECT</code>, <code>INSERT</code>, <code>UPDATE</code>, <code>DELETE</code></li>
+              <li>Detailed breakdowns of SQL clauses like <code>JOIN</code>, <code>WHERE</code>, <code>GROUP BY</code>, <code>ORDER BY</code>, and <code>LIMIT</code></li>
+              <li>A dedicated <strong>tool window</strong> to view and experiment with built-in sample queries</li>
+              <li>Sample queries for all supported SQL types to help you learn or debug easily</li>
             </ul>
             <p>
             Ideal for beginners learning SQL and professionals debugging complex queries.
@@ -24,7 +25,6 @@
             </p>
         ]]>
     </description>
-
 
     <depends>com.intellij.modules.platform</depends>
 
@@ -39,14 +39,17 @@
     </extensions>
 
     <change-notes>
-        Initial release. Features include SQL query explanation for SELECT, JOIN, WHERE, GROUP BY, etc., a persistent tool window for output, and sample SQL queries built in.
+        Added support for INSERT, UPDATE, and DELETE SQL statements.
+
+        Sample queries for INSERT, UPDATE, and DELETE added to the tool window for easier testing and learning.
+
     </change-notes>
 
     <actions>
         <action id="SQLQueryExplainAction"
                 class="com.gauri.sqlqueryexplainer.SQLExplainAction"
                 text="Explain SQL Query"
-                description="Analyze and explain SQL queries inline using visual and textual breakdowns. Includes support for SELECT, JOIN, GROUP BY, ORDER BY, and more. Great for learning and debugging SQL."
+                description="Analyze and explain SQL queries inline. Supports SELECT, INSERT, UPDATE, DELETE, JOIN, GROUP BY, ORDER BY, and more."
                 icon="/icons/sql.png">
             <add-to-group group-id="EditorPopupMenu" anchor="last"/>
         </action>
